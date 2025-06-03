@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JL Scent</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body style="margin:0; font-family:'Poppins', sans-serif; scroll-behavior: smooth; color: #222;">
+
+  <!-- Navigation Bar -->
+  <header style="
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1d2e28;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    z-index: 1000;
+  ">
+    <div style="color: white; font-size: 1.5em; font-weight: 600;">
+      JL Scent
+    </div>
+    <nav style="display: flex; gap: 12px; margin-right: 45px;">
+      <a href="#about" style="
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        border: 1px solid transparent;
+        background: transparent;
+        font-size: 0.95em;
+        transition: all 0.3s;
+      " onmouseover="this.style.border='1px solid white';"
+         onmouseout="this.style.border='1px solid transparent';">About Us</a>
+
+      <a href="#contact" style="
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        border: 1px solid transparent;
+        background: transparent;
+        font-size: 0.95em;
+        transition: all 0.3s;
+      " onmouseover="this.style.border='1px solid white';"
+         onmouseout="this.style.border='1px solid transparent';">Contact</a>
+
+      <a href="index.php" style="
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        border: 1px solid transparent;
+        background: transparent;
+        font-size: 0.95em;
+        transition: all 0.3s;
+      " onmouseover="this.style.border='1px solid white';"
+         onmouseout="this.style.border='1px solid transparent';">Login</a>
+    </nav>
+  </header>
+
+  <!-- Spacer for fixed header -->
+  <div style="height: 70px;"></div>
+
+  <!-- Parallax Section 1 -->
+  <section style="
+    background-image: url('bg.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  ">
+    <div style="
+      background-color: rgba(0,0,0,0.5);
+      padding: 40px;
+      border-radius: 8px;
+      color: white;
+      max-width: 90%;
+    ">
+      <h1 style="font-size: 3em; margin-bottom: 10px;">Welcome to JL Scent</h1>
+      <p style="font-size: 1.2em;">Your destination for premium fragrances and pomades that define style and sophistication.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" style="
+    padding: 80px 20px;
+    background-color: #fefefe;
+    text-align: center;
+  ">
+    <h2 style="font-size: 2.2em; margin-bottom: 20px; color: #2c3e50;">About Us</h2>
+    <p style="max-width: 700px; margin: auto; font-size: 1.1em; line-height: 1.7;">
+      At JL Scent, we craft premium fragrances and pomades that blend artistry and innovation. Our expertly curated scents and products are designed to elevate your senses and leave a lasting impression. Experience the perfect combination of luxury, style, and scent.
+    </p>
+  </section>
+
+  <!-- Parallax Section 2 -->
+  <section style="
+    background-image: url('bg1.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  ">
+    <div style="
+      background-color: rgba(0,0,0,0.4);
+      padding: 40px;
+      border-radius: 8px;
+      color: white;
+      max-width: 90%;
+    ">
+      <h1 style="font-size: 2.8em;">Design That Inspires</h1>
+      <p style="font-size: 1.2em;">Unleash your creativity and indulge your senses with our signature perfumes and pomades. Let each scent tell a story and every product enhance your unique style.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" style="
+    padding: 80px 20px;
+    background-color: #f0f4f8;
+    text-align: center;
+  ">
+    <h2 style="font-size: 2.2em; margin-bottom: 20px; color: #2c3e50;">Contact Us</h2>
+    <p style="font-size: 1.1em;">Have a project in mind? Let’s build something amazing together.</p>
+    <p style="margin-top: 20px;">
+      📧 <a href="mailto:hello@example.com" style="color: #2980b9; text-decoration: none;">JL Scent</a>
+    </p>
+  </section>
+
+</body>
+</html>
